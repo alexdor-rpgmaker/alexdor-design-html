@@ -54,14 +54,20 @@
 
     			<li class = "menu"><a href="jukebox.html"></a>Jukebox</li>
     			<li class = "menu"><a href="jure.html"></a>Devenir juré</li>
+          <li class = "menu">
+            <select id="changeStyle">
+              <option>index.css</option>
+              <option>index_bis.css</option>
+            </select
+          </li>
     		</ul>
 
     	</nav>
-    			
+
     		<div id="conteneur"><div class ="element">
                 <p>Ici le sondage Ici le sondage <br>Ici le sondage <br>Ici le sondage <br>Ici le sondage <br>Ici le sondage <br>Ici le sondage <br>Ici le sondage <br>Ici le sondage <br>Ici le sondage <br>Ici le sondage <br>Ici le sondage <br>Ici le sondage <br>Ici le sondage <br>Ici le sondage <br>Ici le sondage <br>Ici le sondage <br>Ici le sondage <br>Ici le sondage <br>Ici le sondage <br>Ici le sondage <br>Ici le sondage <br>Ici le sondage <br>Ici le sondage <br>Ici le sondage <br>Ici le sondage <br>Ici le sondage <br>Ici le sondage <br>Ici le sondage <br>Ici le sondage <br>Ici le sondage <br>Ici le sondage <br>Ici le sondage <br>Ici le sondage <br>Ici le sondage <br></p> </div>
                 <div class ="element">
-    	  	<p><h1>Bienvenue dans le site des Alex d'Or !</h1></p> 
+    	  	<p><h1>Bienvenue dans le site des Alex d'Or !</h1></p>
 
     		<h1>Dernières news des Alex d'Or</h1>
     		</div>
@@ -75,7 +81,15 @@
     		<div>
 
     	<footer>
-    		
-    	</footer> 
+
+    	</footer>
     </body>
+    <script>
+      document.getElementById("changeStyle").addEventListener("click", function()
+        {
+          var css = document.getElementsByTagName("link").item(0);
+          css.href = document.getElementById("changeStyle").value;
+        }
+      );
+    </script>
 </html>
