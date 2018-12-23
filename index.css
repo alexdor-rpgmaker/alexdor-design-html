@@ -1,0 +1,119 @@
+body
+{
+	color: #e2e2d5;
+	background-color:#292929;
+	font-size: large;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav
+{
+	color: #f3e86a;
+	width: 100%;
+	background-color: #0a6164;
+	font-family: 'Staatliches', cursive;
+}
+
+.menu
+{
+	font-size: x-large;
+}
+
+nav ul
+{
+	margin: 0px;
+	padding: 2px;
+}
+
+nav ul li
+{
+	float: left;
+	position: relative;
+}
+
+.menu
+{
+	vertical-align: middle;
+}
+
+nav li
+{
+	list-style-type: none;
+}
+
+nav ul::after
+{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.sousmenu
+{
+	display: none;
+	font-size: large;
+}
+
+nav a
+{
+	display: inline-block;
+	text-decoration: none;
+}
+
+nav ul li a
+{
+	padding: 15px 30px;
+	color: #FFF;
+}
+
+.imageflottante
+{
+	float: left;
+}
+
+nav li:hover .sousmenu
+{
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	padding: 0px;
+	z-index: 100000;
+}
+
+.sousmenu li
+{
+	border-bottom: 1px solid #CCC;
+}
+
+.sousmenu li a
+{
+	padding: 15px 30px;
+	font-size: 13px;
+	color: #75B1A9;
+	width: 270px;
+}
+
+.sousmenu li:hover a
+{
+	color:#0a6164;
+	font-weight: bold;
+}
+
+.sousmenu 
+{
+	background-color: #0a6164;
+}
+
+.menu:hover
+{
+background-color: #06393b;
+}
+
+h1
+{
+	text-align: center;
+}
+
