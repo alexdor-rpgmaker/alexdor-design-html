@@ -8,56 +8,18 @@ body
 	font-family: 'Open Sans', sans-serif;
 }
 
+/********** NAVBAR **********/
+.imageflottante
+{
+	float: left;
+}
+
 nav
 {
 	color: #f3e86a;
 	width: 100%;
 	background-color: #0a6164;
 	font-family: 'Staatliches', cursive;
-}
-
-a
-{
-	color: #e2e2d5;
-}
-
-h3
-{
-	text-align: center;
-
-}
-
-.lastnews
-{
- 	width: 650px;
-    height: 418px;
-    text-align: justify;
-    border: 1px solid black;
-    overflow: hidden;
-}
-
-article
-{
-	width: 50%;
-	margin: auto
-}
-
-
-#conteneur
-{
-	display: flex;
-	justify-content: space-around;
-}
-
-.pres
-{
-	background-color: #cCcEcF;
-	color: #292929;
-}
-
-.reseaux
-{
-	text-align: center
 }
 
 .menu
@@ -112,11 +74,6 @@ nav ul li a
 	color: #FFF;
 }
 
-.imageflottante
-{
-	float: left;
-}
-
 nav li:hover .sousmenu
 {
 	display: inline-block;
@@ -153,7 +110,53 @@ nav li:hover .sousmenu
 
 .menu:hover
 {
-background-color: #06393b;
+	background-color: #06393b;
+}
+
+/********** FIN NAVBAR **********/
+
+a
+{
+	color: #e2e2d5;
+}
+
+h3
+{
+	text-align: center;
+	
+}
+
+.lastnews
+{
+	width: 650px;
+	height: 418px;
+	text-align: justify;
+	border: 1px solid black;
+	overflow: hidden;
+}
+
+article
+{
+	width: 50%;
+	margin: auto
+}
+
+
+#conteneur
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+.pres
+{
+	background-color: #cCcEcF;
+	color: #292929;
+}
+
+.reseaux
+{
+	text-align: center
 }
 
 h1
@@ -167,7 +170,7 @@ h1
 	{
 		float: none;
 		display: block;
-    	margin-left: auto;
-    	margin-right: auto
+		margin-left: auto;
+		margin-right: auto
 	}
 }
