@@ -38,7 +38,17 @@ article
 
 .pres
 {
-	background-color: #1C1E1F;
+	background-color: #cCcEcF;
+	color: #292929;
+}
+
+.lastnews
+{
+    width: 650px;
+    height: 500px;
+    text-align: justify;
+    border: 1px solid black;
+    overflow: auto;
 }
 
 .reseaux
