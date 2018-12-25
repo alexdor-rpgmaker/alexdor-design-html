@@ -1,0 +1,54 @@
+/********** NAVBAR **********/
+
+.navbar
+{
+    background-color: #0a6164;
+    font-family: 'Staatliches', cursive;
+}
+
+.navbar-nav > li > a
+{
+    color: #f3e86a;
+}
+
+.navbar-nav > li > .dropdown-menu 
+{
+    background-color: #0a6164; 
+}
+
+.navbar-nav > li > .dropdown-menu a
+{   
+    color: #f3e86a;
+}
+
+/********** FIN NAVBAR **********/
+
+/********** MAIN **********/
+
+main{
+    color: #272727;
+    background-color: #e2e2d5;
+}
+
+.pres{
+    font-weight: bold;
+}
+
+hr {
+    height: 2px;
+    background-color:#555;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 75%;
+}
+
+/********** FIN MAIN **********/
+
+/********** FOOTER **********/
+
+footer{
+    background-color: #0a6164;
+    color: #f3e86a;
+}
+
+/********** FIN FOOTER **********/
