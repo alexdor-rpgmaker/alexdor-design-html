@@ -94,6 +94,12 @@
                     <li class="nav-item">
                         <a class="nav-link" href="jure.html">Devenir juré</a>
                     </li>
+                    <li>
+                        <select id="changeStyle">
+                            <option>style.css</option>
+                            <option>style_bis.css</option>
+                        </select>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -148,10 +154,19 @@
         </div>
     </footer>
     
-    <!-- SCIPRT BOOTSTRAP -->
+    <!-- SCRIPT BOOTSTRAP -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     
+    <!-- SCRIPT CHANGEMENT DE STYLE -->
+    <script>
+        document.getElementById("changeStyle").addEventListener("change", function()
+        {
+        var css = document.getElementsByTagName("link").item(0);
+        css.href = document.getElementById("changeStyle").value;
+        }
+        );
+    </script>
 </body>
 </html>
