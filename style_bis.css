@@ -1,24 +1,28 @@
-/********** NAVBAR **********/
-
 .navbar
 {
-    background-color: #0a6164;
+    background-color: #2C3E4A;
     font-family: 'Staatliches', cursive;
 }
 
 .navbar-nav > li > a
 {
-    color: #f3e86a;
+    color: #EFAF29;
 }
+
+/********** NAVBAR **********/
 
 .navbar-nav > li > .dropdown-menu 
 {
-    background-color: #0a6164; 
+    background-color: #2C3E4A; 
 }
 
 .navbar-nav > li > .dropdown-menu a
 {   
-    color: #f3e86a;
+    color: #EFAF29;
+}
+
+.navbar-nav .navbar-toggle {
+    color: #EFAF29;
 }
 
 /********** FIN NAVBAR **********/
