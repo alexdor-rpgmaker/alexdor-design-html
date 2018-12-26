@@ -11,13 +11,13 @@
 
 /********** NAVBAR **********/
 
-.navbar-nav > li > .dropdown-menu 
+.navbar-nav > li > .dropdown-menu
 {
-    background-color: #2C3E4A; 
+    background-color: #2C3E4A;
 }
 
 .navbar-nav > li > .dropdown-menu a
-{   
+{
     color: #EFAF29;
 }
 
@@ -51,7 +51,7 @@ hr {
 /********** FOOTER **********/
 
 footer{
-    background-color: #0a6164;
+    background-color: #2C3E4A;
     color: #f3e86a;
 }
 
