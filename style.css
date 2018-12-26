@@ -25,6 +25,15 @@
  border-color: #DDD;
 }
 
+.fa-bars{
+    color: #EFAF29;
+}
+
+ul.navbar-nav {
+    position: absolute;
+    right: 50px;
+}
+
 /********** FIN NAVBAR **********/
 
 /********** MAIN **********/
