@@ -59,4 +59,17 @@ footer{
     color: #EFAF29;
 }
 
+footer ul{
+    list-style-type: none
+}
+
+.icon_fb{
+    background-image: "../assets/icon_fb.png";
+    background-repeat: no-repeat;
+}
+
+footer a{
+    color: #EFAF29
+}
+
 /********** FIN FOOTER **********/
