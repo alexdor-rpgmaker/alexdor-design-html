@@ -64,8 +64,8 @@
             </li>
             <li>
               <select id="changeStyle" name="style">
-                <option value="default">www/css/style.css</option>
-                <option value="bis">www/css/style_bis.css</option>
+                <option value="default">../assets/css/style.css</option>
+                <option value="bis">../assets/css/style_bis.css</option>
               </select>
             </li>
           </ul>
