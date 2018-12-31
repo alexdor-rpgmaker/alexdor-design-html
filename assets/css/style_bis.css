@@ -34,8 +34,8 @@
 /********** MAIN **********/
 
 main{
-    color: #272727;
-    background-color: #e2e2d5;
+    color: #e2e2d5;
+    background-color: #272727;
 }
 
 .pres{
@@ -49,6 +49,10 @@ hr {
     margin-bottom: 20px;
     width: 75%;
 }
+
+main img{
+    max-width: 100%
+} 
 
 /********** FIN MAIN **********/
 
