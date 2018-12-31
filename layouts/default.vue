@@ -3,9 +3,9 @@
     <!-- HEADER -->
     <header>
       <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">
+        <nuxt-link class="navbar-brand" to="/">
           <img src="~/assets/img/header_logo.png" width="200" class = "imageflottante">
-        </a>
+        </nuxt-link>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon">
             <i class="fas fa-bars fa-2x"></i>
@@ -15,15 +15,15 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Accueil <span class="sr-only">(actuel)</span></a>
+              <nuxt-link class="nav-link" to="/">Accueil <span class="sr-only">(actuel)</span></nuxt-link>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="#">News <span class="sr-only">(actuel)</span></a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="concours.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <nuxt-link class="nav-link dropdown-toggle" to="/concours" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Session 2019
-              </a>
+              </nuxt-link>
               <div class="dropdown-menu colorlink" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#">Règlement</a>
                 <a class="dropdown-item" href="#">Jeux en lice</a>
@@ -33,9 +33,9 @@
               </div>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="jeux.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <nuxt-link class="nav-link dropdown-toggle" to="/jeux" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Archives
-              </a>
+              </nuxt-link>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#">Anciennes sessions</a>
                 <a class="dropdown-item" href="#">Jeux vainqueurs</a>
@@ -45,18 +45,18 @@
               </div>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="forum.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <nuxt-link class="nav-link dropdown-toggle" to="/forum" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Forum
-              </a>
+              </nuxt-link>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#">Index du forum</a>
                 <a class="dropdown-item" href="#">Nouveaux messages</a>
               </div>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="communaute.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <nuxt-link class="nav-link dropdown-toggle" to="/communaute" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Communauté
-              </a>
+              </nuxt-link>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#">Derniers commentaires</a>
                 <a class="dropdown-item" href="#">Liste des membres</a>

@@ -43,7 +43,7 @@ function nl2br (str, isXhtml) {
 
 export default {
   async asyncData({ $axios }) {
-    const newsWithoutNewLines = await $axios.$get('https://www.alexdor.info/api/v0/news')
+    const newsWithoutNewLines = await $axios.$get('/news', { headers: {} })
     const news = newsWithoutNewLines.map((pon) => {
       pon.content = nl2br(pon.content)
       return pon

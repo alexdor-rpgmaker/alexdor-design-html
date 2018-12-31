@@ -30,7 +30,9 @@ module.exports = {
   modules: [
     '@nuxtjs/axios',
   ],
-  axios: {},
+  axios: {
+    baseURL: 'https://www.alexdor.info/api/v0'
+  },
   /*
   ** Customize the progress bar color
   */
