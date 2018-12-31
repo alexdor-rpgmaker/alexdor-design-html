@@ -64,7 +64,7 @@ footer ul{
 }
 
 .icon_fb{
-    background-image: "../assets/icon_fb.png";
+    background-image: url('~assets/img/fb_icon.png');
     background-repeat: no-repeat;
 }
 
