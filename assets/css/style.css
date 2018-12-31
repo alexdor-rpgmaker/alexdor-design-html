@@ -54,6 +54,10 @@ main img{
     max-width: 100%
 } 
 
+main a{
+    color: #EFAF29;
+} 
+
 /********** FIN MAIN **********/
 
 /********** FOOTER **********/
