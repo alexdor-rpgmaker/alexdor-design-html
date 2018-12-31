@@ -13,3 +13,13 @@ Ensuite il faut installer les dépendances dans le projet :
 Pour démarrer un serveur en local :
 
 `npm run dev`
+
+## Déployer sur Github Pages
+
+Il faut d'abord builder le projet :
+
+`npm run generate:gh-pages`
+
+Puis le déployer sur Github :
+
+`npm run deploy`
