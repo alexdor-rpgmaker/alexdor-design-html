@@ -50,6 +50,10 @@ hr {
     width: 75%;
 }
 
+main img{
+    max-width: 100%
+} 
+
 /********** FIN MAIN **********/
 
 /********** FOOTER **********/
