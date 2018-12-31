@@ -18,48 +18,48 @@
               <nuxt-link class="nav-link" to="/">Accueil <span class="sr-only">(actuel)</span></nuxt-link>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">News <span class="sr-only">(actuel)</span></a>
+              <nuxt-link class="nav-link" to="">News <span class="sr-only">(actuel)</span></nuxt-link>
             </li>
             <li class="nav-item dropdown">
-              <nuxt-link class="nav-link dropdown-toggle" to="/concours" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <nuxt-link class="nav-link dropdown-toggle" to="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Session 2019
               </nuxt-link>
               <div class="dropdown-menu colorlink" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Règlement</a>
-                <a class="dropdown-item" href="#">Jeux en lice</a>
-                <a class="dropdown-item" href="#">Inscrire un jeu</a>
+                <nuxt-link class="dropdown-item" to="">Règlement</nuxt-link>
+                <nuxt-link class="dropdown-item" to="">Jeux en lice</nuxt-link>
+                <nuxt-link class="dropdown-item" to="">Inscrire un jeu</nuxt-link>
                 <div class = "dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Devenir juré</a>
+                <nuxt-link class="dropdown-item" to="">Devenir juré</nuxt-link>
               </div>
             </li>
             <li class="nav-item dropdown">
-              <nuxt-link class="nav-link dropdown-toggle" to="/jeux" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <nuxt-link class="nav-link dropdown-toggle" to="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Archives
               </nuxt-link>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Anciennes sessions</a>
-                <a class="dropdown-item" href="#">Jeux vainqueurs</a>
-                <a class="dropdown-item" href="#">Tous les jeux</a>   
-                <a class="dropdown-item" href="#">Séries de jeu</a> 
-                <a class="dropdown-item" href="#">Un jeu au hasard</a> 
+                <nuxt-link class="dropdown-item" to="">Anciennes sessions</nuxt-link>
+                <nuxt-link class="dropdown-item" to="">Jeux vainqueurs</nuxt-link>
+                <nuxt-link class="dropdown-item" to="/jeux">Tous les jeux</nuxt-link>   
+                <nuxt-link class="dropdown-item" to="">Séries de jeu</nuxt-link> 
+                <nuxt-link class="dropdown-item" to="">Un jeu au hasard</nuxt-link> 
               </div>
             </li>
             <li class="nav-item dropdown">
-              <nuxt-link class="nav-link dropdown-toggle" to="/forum" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <nuxt-link class="nav-link dropdown-toggle" to="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Forum
               </nuxt-link>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Index du forum</a>
-                <a class="dropdown-item" href="#">Nouveaux messages</a>
+                <nuxt-link class="dropdown-item" to="/forum">Index du forum</nuxt-link>
+                <nuxt-link class="dropdown-item" to="">Nouveaux messages</nuxt-link>
               </div>
             </li>
             <li class="nav-item dropdown">
-              <nuxt-link class="nav-link dropdown-toggle" to="/communaute" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <nuxt-link class="nav-link dropdown-toggle" to="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Communauté
               </nuxt-link>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Derniers commentaires</a>
-                <a class="dropdown-item" href="#">Liste des membres</a>
+                <nuxt-link class="dropdown-item" to="">Derniers commentaires</nuxt-link>
+                <nuxt-link class="dropdown-item" to="">Liste des membres</nuxt-link>
               </div>
             </li>
             <li>
