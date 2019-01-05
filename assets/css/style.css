@@ -50,13 +50,23 @@ hr {
     width: 75%;
 }
 
-main img{
+main img, main iframe{
     max-width: 100%
 } 
 
-main a{
+main a, main a:hover{
     color: #EFAF29;
 } 
+
+.pres_alex{
+    text-align: center
+}
+
+.pres_bloc{
+    width: 50%;
+    margin: 0 auto;
+    width: 1000px;
+}
 
 /********** FIN MAIN **********/
 
@@ -79,5 +89,4 @@ footer ul{
 footer a{
     color: #EFAF29
 }
-
 /********** FIN FOOTER **********/
