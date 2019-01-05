@@ -10,7 +10,7 @@
           Chaque année depuis 2001,<br>
           il décerne des awards aux meilleurs jeux vidéo créés avec<br>
           le logiciel RPG Maker.<br>
-          Que la compétition commence ! Plus d'infos
+          Que la compétition commence ! <nuxt-link to="pres_concours">Plus d'infos</nuxt-link>
         </p>
       </div>
       <hr>
