@@ -1,62 +1,62 @@
-.navbar
-{
-    background-color: #2C3E4A;
-    font-family: 'Staatliches', cursive;
+.navbar {
+  background-color: #2c3e4a;
+  font-family: "Staatliches", cursive;
 }
 
-.navbar-nav > li > a
-{
-    color: #EFAF29;
+.navbar-nav > li > a {
+  color: #efaf29;
 }
 
 /********** NAVBAR **********/
 
-.navbar-nav > li > .dropdown-menu
-{
-    background-color: #2C3E4A;
+.navbar-nav > li > .dropdown-menu {
+  background-color: #2c3e4a;
 }
 
-.navbar-nav > li > .dropdown-menu a
-{
-    color: #EFAF29;
+.navbar-nav > li > .dropdown-menu a {
+  color: #efaf29;
 }
 
 .navbar-nav .navbar-toggle {
-    color: #EFAF29;
+  color: #efaf29;
 }
 
-.fa-bars{
-    color: #EFAF29;
+.fa-bars {
+  color: #efaf29;
 }
 
 /********** FIN NAVBAR **********/
 
 /********** MAIN **********/
 
-main{
-    color: #272727;
-    background-color: #e2e2d5;
+main {
+  color: #e2e2d5;
+  background-color: #272727;
 }
 
-.pres{
-    font-weight: bold;
+.pres {
+  font-weight: bold;
 }
 
 hr {
-    height: 2px;
-    background-color:#555;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 75%;
+  height: 2px;
+  background-color: #555;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 75%;
+}
+
+main img {
+  max-width: 100%;
 }
 
 /********** FIN MAIN **********/
 
 /********** FOOTER **********/
 
-footer{
-    background-color: #2C3E4A;
-    color: #f3e86a;
+footer {
+  background-color: #2c3e4a;
+  color: #f3e86a;
 }
 
 /********** FIN FOOTER **********/

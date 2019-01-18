@@ -1,75 +1,90 @@
 /********** NAVBAR **********/
 
-.navbar
-{
-    background-color: #2C3E4A;
-    font-family: 'Staatliches', cursive;
+.navbar {
+  background-color: #2c3e4a;
+  font-family: "Staatliches", cursive;
 }
 
-.navbar-nav > li > a
-{
-    color: #EFAF29;
+.navbar-nav > li > a {
+  color: #efaf29;
 }
 
-.navbar-nav > li > .dropdown-menu 
-{
-    background-color: #2C3E4A; 
+.navbar-nav > li > .dropdown-menu {
+  background-color: #2c3e4a;
 }
 
-.navbar-nav > li > .dropdown-menu a
-{   
-    color: #EFAF29;
+.navbar-nav > li > .dropdown-menu a {
+  color: #efaf29;
 }
 
 .navbar-nav .navbar-toggle {
- border-color: #DDD;
+  border-color: #ddd;
 }
 
-.fa-bars{
-    color: #EFAF29;
+.fa-bars {
+  color: #efaf29;
 }
 
 /********** FIN NAVBAR **********/
 
 /********** MAIN **********/
 
-main{
-    color: #f8ebd3;
-    background-color: #1f2529;
+main {
+  color: #f8ebd3;
+  background-color: #1f2529;
 }
 
-.pres{
-    font-weight: bold;
+.pres {
+  font-weight: bold;
 }
 
 hr {
-    height: 2px;
-    background-color:#555;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 75%;
+  height: 2px;
+  background-color: #555;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 75%;
+}
+
+main img,
+main iframe {
+  max-width: 100%;
+}
+
+main a,
+main a:hover {
+  color: #efaf29;
+}
+
+.pres_alex {
+  text-align: center;
+}
+
+.pres_bloc {
+  width: 50%;
+  margin: 0 auto;
+  width: 1000px;
 }
 
 /********** FIN MAIN **********/
 
 /********** FOOTER **********/
 
-footer{
-    background-color: #2C3E4A; 
-    color: #EFAF29;
+footer {
+  background-color: #2c3e4a;
+  color: #efaf29;
 }
 
-footer ul{
-    list-style-type: none
+footer ul {
+  list-style-type: none;
 }
 
-.icon_fb{
-    background-image: "../assets/icon_fb.png";
-    background-repeat: no-repeat;
+.icon_fb {
+  background-image: url("~assets/img/fb_icon.png");
+  background-repeat: no-repeat;
 }
 
-footer a{
-    color: #EFAF29
+footer a {
+  color: #efaf29;
 }
-
 /********** FIN FOOTER **********/
