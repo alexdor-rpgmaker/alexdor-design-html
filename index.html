@@ -182,8 +182,8 @@
             v-for="pon in news"
             :key="pon.id"
           >
-            <h3>{{ pon.title }}</h3>
-            <p style="font-style: italic">{{ pon.created_at }}</p>
+            <h3>{{ pon.title }}</h3> <b><a href="">Lire l'article en entier</a></b>
+            <p style="font-style: italic">Posté le {{ pon.created_at }}</p>
             <p style="font-weight: bold">{{ pon.user.username }}</p>
             <div
               class="news-content"
