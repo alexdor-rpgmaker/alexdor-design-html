@@ -66,6 +66,11 @@ main a:hover {
   width: 1000px;
 }
 
+.piece-of-news {
+  max-height: 1600px;
+  overflow: hidden;
+}
+
 /********** FIN MAIN **********/
 
 /********** FOOTER **********/
