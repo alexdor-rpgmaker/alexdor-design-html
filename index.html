@@ -148,8 +148,8 @@
             </li>
             <li>
               <select id="changeStyle">
-                <option>www/css/style.css</option>
-                <option>www/css/style_bis.css</option>
+                <option>Thème sombre</option>
+                <option>Thème clair</option>
               </select>
             </li>
           </ul>
@@ -218,11 +218,17 @@
 
     <!-- SCRIPT CHANGEMENT DE STYLE -->
     <script>
-      document
-        .getElementById("changeStyle")
+        document.getElementById("changeStyle")
         .addEventListener("change", function() {
-          var css = document.getElementsByTagName("link").item(0);
-          css.href = document.getElementById("changeStyle").value;
+          var theme = document.getElementById("changeStyle").value;
+          bod = document.getElementsByTagName("main")[0];
+          if (theme == "Thème clair") {
+            bod.style.backgroundColor = "#f8ebd3";
+            bod.style.color = "#1f2529";
+          } else {
+            bod.style.backgroundColor = "#1f2529";
+            bod.style.color = "#f8ebd3";
+          }
         });
 
       function nl2br(str, isXhtml) {
@@ -236,7 +242,6 @@
           "$1" + breakTag + "$2"
         );
       }
-
       new Vue({
         el: ".container",
         data: {
@@ -254,4 +259,3 @@
       });
     </script>
   </body>
-</html>
