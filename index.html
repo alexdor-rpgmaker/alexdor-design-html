@@ -165,13 +165,13 @@
             <h1>Bienvenue dans le site des Alex d'Or !</h1>
             <p>
               Bienvenue au concours des Alex d'or !<br> Qui depuis 2001 décerne des récompenses
-              <br> à des jeux vidéos amateurs.<br> 
+              <br> à des jeux vidéos amateurs.<br>
               Que la compétition commence !
               <a href="html/concours.html">Plus d'infos</a>
             </p>
           </div>
           <div id="demo" class="carousel slide" data-ride="carousel">
-            
+
           <!-- Le carrousel -->
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -199,9 +199,9 @@
           <div
             class="piece-of-news"
             style="border: 1px solid #555; margin-bottom: 20px; padding: 10px"
-            v-for="pon in news"  
+            v-for="pon in news"
             :key="pon.id"
-          > 
+          >
             <h3>{{ pon.title }}</h3> <b><a href="">Lire l'article en entier</a></b>
             <p style="font-style: italic">Posté le {{ pon.created_at }}</p>
             <p style="font-weight: bold">{{ pon.user.username }}</p>
@@ -306,7 +306,7 @@
           const newsWithoutNewLines = await axios.get(
             "https://www.alexdor.info/api/v0/news"
           );
-          this.news = newsWithoutNewLines.data.map(pon => {
+          this.news = newsWithoutNewLines.data.slice(0, 1).map(pon => {
             pon.content = nl2br(pon.content);
             return pon;
           });
