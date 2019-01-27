@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=0.9, shrink-to-fit=no"
     />
-    <meta name="description" content="Création du nouveau thème pour le site des Alex d'Or. Voir ici : https://alexdor.info/" />
+    <meta name="description" content="Front-end des Alex d'or" />
 
     <link rel="stylesheet" href="www/css/style.css" />
     <link
@@ -159,19 +159,19 @@
 
     <!-- CONTENU PRINCIPAL -->
     <main>
-     <div class="container">
+        <div class="container">
         <div class="row text-center py-3">
           <div class="col-12">
             <h1>Bienvenue dans le site des Alex d'Or !</h1>
             <p>
               Bienvenue au concours des Alex d'or !<br> Qui depuis 2001 décerne des récompenses
-              <br> à des jeux vidéos amateurs.<br>
+              <br> à des jeux vidéos amateurs.<br> 
               Que la compétition commence !
               <a href="html/concours.html">Plus d'infos</a>
             </p>
           </div>
           <div id="demo" class="carousel slide" data-ride="carousel">
-
+            
           <!-- Le carrousel -->
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -199,9 +199,9 @@
           <div
             class="piece-of-news"
             style="border: 1px solid #555; margin-bottom: 20px; padding: 10px"
-            v-for="pon in news"
+            v-for="pon in news"  
             :key="pon.id"
-          >
+          > 
             <h3>{{ pon.title }}</h3> <b><a href="">Lire l'article en entier</a></b>
             <p style="font-style: italic">Posté le {{ pon.created_at }}</p>
             <p style="font-weight: bold">{{ pon.user.username }}</p>
@@ -211,21 +211,23 @@
               v-html="pon.content">
           </div></div>
         </div>
+        <hr />
+        <div class = "moment_accueil">
         <div class="row">
             <div class = "col-lg-6">
               <h4>Le screen du moment :</h4>
-                <img src="https://www.alexdor.info/uploads/screenshots/2017-2018/934_Garruk_RockyAv12.png" style="width: 330px; height: 248px">
+                <img src="https://www.alexdor.info/uploads/screenshots/2017-2018/934_Garruk_RockyAv12.png" style="width: 330px; height: 248px"> 
             </div>
               <div class = "col-lg-6">
                <h4>La vidéo du moment</h4>
-                <iframe width="330" height="248" src="https://www.youtube.com/embed/LFyPmIrvHFM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="330" height="248" src="https://www.youtube.com/embed/LFyPmIrvHFM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
               </div>
             </div>
         <hr>
         <div class="row">
             <div class = "col-lg-6">
               <h4>Le sondage</h4>
-              Les awards pour récompenser les jeux... <br>
+              Les awards pour récompenser les jeux... 
             <div>
               <input type="radio" id="arreter" name="drone" value="huey"
                      checked>
@@ -236,8 +238,8 @@
               <input type="radio" id="garder" name="drone" value="dewey">
               <label for="garder">C'est trop bien, on les garde.</label>
             </div>
-              <button type="button" class = 'send_sondage'>Envoyer</button>
-          </div>
+            <button type="button" class = 'send_sondage'>Envoyer</button>
+          </div> <br>
              <div class = "col-lg-6">
                <h4>Le jukebox <i class = "fa fa-music"></i></h4>
                <p>
@@ -246,7 +248,10 @@
                 <b><a href="">Ouvrir le jukebox</a></b>
               </p>
              </div>
+           </div>
         </div>
+      </div>
+    </div>
     </main>
 
     <!-- FOOTER-->
@@ -309,7 +314,7 @@
           this.news = newsWithoutNewLines.data.slice(0, 1).map(pon => {
             pon.content = nl2br(pon.content);
             return pon;
-          });
+          })
         }
       });
     </script>
