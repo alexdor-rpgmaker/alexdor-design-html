@@ -32,6 +32,8 @@
 main {
   color: #f8ebd3;
   background-color: #1f2529;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .pres {
@@ -46,9 +48,8 @@ hr {
   width: 75%;
 }
 
-main img,
-main iframe {
-  max-width: 100%;
+main img, main iframe, main div {  
+  max-width: 100%; 
 }
 
 main a,
