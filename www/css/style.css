@@ -72,6 +72,12 @@ main a:hover {
   overflow: hidden;
 }
 
+.send_sondage {
+  background-color: #efaf29;
+  border: none;
+  border-radius: 5px;
+}
+
 /********** FIN MAIN **********/
 
 /********** FOOTER **********/
